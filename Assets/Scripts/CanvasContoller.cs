@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class CanvasContoller : MonoBehaviour
 {
@@ -19,18 +19,16 @@ public class CanvasContoller : MonoBehaviour
         
     }
 
-    public void setCanvas(List<Button> newButtons)
+    private void setCanvas()
     {
         foreach(Button button in buttons)
         {
-            button.gameObject.SetActive(false);
-        }
+            button.style.width = (200.0f/3.0f);
+            button.style.height = (100f);
 
-        buttons.Clear();
-
-        foreach(Button button in newButtons)
-        {
-            buttons.Add(button);
+            if(buttons.IndexOf(button) == 0){
+            }
+            button.SetEnabled(true);
         }
     }
 
