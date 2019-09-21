@@ -20,4 +20,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Snacks.unity
     guid: 40971ca58ba6f1c41bd7da702a8d007a
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Breakfast.unity
+    guid: bfb89bde50d75a44cbf3aaa8305ee3d4
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Fruits.unity
+    guid: 6f3bd61029228b44194e435b0a3c1318
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Vegetables.unity
+    guid: 7b95fb5bd25e7394b90d3268e95f8969
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Lunch.unity
+    guid: c2707009e11df0641af202cb6d3455be
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Dinner.unity
+    guid: 1692d2fbd7f873541a4a4b8154ee24ae
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Hungry_Thirsty_Scenes/Drinks.unity
+    guid: 751481d127ead0144b7c02b643fbdc03
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Basement.unity
+    guid: bb4b05b7443fb8049ba6352a67487a14
   m_configObjects: {}
