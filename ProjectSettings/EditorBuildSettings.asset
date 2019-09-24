@@ -41,4 +41,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScenes/Basement.unity
     guid: bb4b05b7443fb8049ba6352a67487a14
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Bathroom.unity
+    guid: 7fc98a8926c6ba6408b12073462aa384
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Bedroom.unity
+    guid: 34838938bdf539a4a955ab4a5ff6d490
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/DiningRoom.unity
+    guid: a7c3ba02f3c037d47a7a7d4a42ad56a0
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/LivingRoom.unity
+    guid: b5f9fa673babfc6498837f8f5983f669
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/Closet.unity
+    guid: 1165e8575febe8a4aa54b9cbea44d275
+  - enabled: 1
+    path: Assets/Scenes/HomeScenes/ClothesScene.unity
+    guid: 94c044699783a11469ad1b86577d6aee
   m_configObjects: {}
