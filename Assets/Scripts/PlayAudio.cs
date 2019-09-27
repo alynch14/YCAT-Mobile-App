@@ -15,7 +15,7 @@ public class PlayAudio : MonoBehaviour
         audioClip.LoadAudioData();
     }
 
-    public void OnMouseDown()
+    public void PlayAudioNow()
     {
         audioSource.PlayOneShot(audioClip);
     }
