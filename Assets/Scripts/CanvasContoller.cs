@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class CanvasContoller : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class CanvasContoller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        setCanvas();
     }
 
     // Update is called once per frame
@@ -23,12 +23,16 @@ public class CanvasContoller : MonoBehaviour
     {
         foreach(Button button in buttons)
         {
-            button.style.width = (200.0f/3.0f);
-            button.style.height = (100f);
+            
 
-            if(buttons.IndexOf(button) == 0){
+            if(buttons.IndexOf(button) == 0)
+            {
+                button.transform.position = new Vector3(0, 0, 0);
+                button.enabled = true;
+            } else
+            {
+
             }
-            button.SetEnabled(true);
         }
     }
 
