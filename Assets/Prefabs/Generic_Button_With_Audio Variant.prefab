@@ -170,6 +170,16 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5711234394598274304, guid: f418e4a5823665b41aaddaaea9566654,
+        type: 3}
+      propertyPath: m_MinWidth
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711234394598274304, guid: f418e4a5823665b41aaddaaea9566654,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 800
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 443575754957165330, guid: f418e4a5823665b41aaddaaea9566654, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f418e4a5823665b41aaddaaea9566654, type: 3}
