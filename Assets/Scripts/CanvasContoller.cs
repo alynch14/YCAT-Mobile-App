@@ -2,38 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CanvasContoller : MonoBehaviour
 {
-    private List<Button> buttons;
+    private NavigationPath navigationPath = NavigationPath.Instance;
+    public Text pathTraversed;
 
     // Start is called before the first frame update
     void Start()
     {
-        setCanvas();
+        if (pathTraversed == null)
+        {
+            pathTraversed = gameObject.GetComponentInChildren<Text>();
+        }
+
+        print(navigationPath.GetCurrentPath());
+        string sceneName = SceneManager.GetActiveScene().name;
+        print(sceneName);
+        pathTraversed.text = navigationPath.GetCurrentPath() + sceneName + "/";
+        navigationPath.AppendToPath(sceneName + "/");
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    private void setCanvas()
-    {
-        foreach(Button button in buttons)
-        {
-            
-
-            if(buttons.IndexOf(button) == 0)
-            {
-                button.transform.position = new Vector3(0, 0, 0);
-                button.enabled = true;
-            } else
-            {
-
-            }
-        }
     }
 
     private void setButtonDimensions()
