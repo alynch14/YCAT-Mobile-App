@@ -28,7 +28,7 @@ public class NavigationPath : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Awake();
     }
 
     // Update is called once per frame

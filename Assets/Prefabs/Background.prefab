@@ -870,7 +870,7 @@ MonoBehaviour:
   m_VerticalScrollbar: {fileID: 6595951055935594083}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
-  m_HorizontalScrollbarSpacing: -3
+  m_HorizontalScrollbarSpacing: -5
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2238,7 +2238,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 4641565271193169615}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.886
+  m_Size: 0.89266664
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

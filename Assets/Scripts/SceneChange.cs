@@ -8,6 +8,7 @@ public class SceneChange : MonoBehaviour
     private bool playAudio;
     private AudioSource audioSource;
     public AudioClip audioClip;
+    private string sceneToLoad;
 
     // Start is called before the first frame update
     void Start()
@@ -33,11 +34,22 @@ public class SceneChange : MonoBehaviour
 
     public void loadScene(string scene)
     {
+        sceneToLoad = scene;
+
         if (playAudio)
         {
             audioSource.PlayOneShot(audioClip);
+            Invoke("changeScene", audioClip.length);
         }
+        else
+        {
+            changeScene();
+        }
+        
+    }
 
-        SceneManager.LoadScene(scene);
+    private void changeScene()
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
