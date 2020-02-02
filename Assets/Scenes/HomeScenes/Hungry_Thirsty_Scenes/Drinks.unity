@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: pedia_sure_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/pedia_sure_button
 --- !u!1001 &522101204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: water_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/water_button
 --- !u!1 &720456023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: milk_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/milk_button
 --- !u!1001 &1524796759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: smoothie_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/smoothie_button
 --- !u!1001 &1554217311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1497,6 +1497,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5440079578186019910, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113642, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_RenderMode
@@ -1507,26 +1512,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 973741519}
-    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_Text
-      value: Drinks
-      objectReference: {fileID: 0}
-    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7730668349174755367, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5440079578186019910, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 5067025955842894969, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1556,6 +1541,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_Text
+      value: Drinks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3447162003189146163, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -1767,6 +1762,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7730668349174755367, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff63ac1a1dacd364ca8a35ba3a34293a, type: 3}
 --- !u!224 &1554217312 stripped
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/nav_i_dont_know_button
 --- !u!114 &1554217328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/nav_yes_button
 --- !u!114 &1554217329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/nav_no_button
 --- !u!1001 &1693564669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: orange_juice_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/orange_juice_button
 --- !u!1001 &2012801552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2288,4 +2288,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: apple_juice_button
+  button_id: Home/Kitchen/HungryThirsty/Drinks/apple_juice_button

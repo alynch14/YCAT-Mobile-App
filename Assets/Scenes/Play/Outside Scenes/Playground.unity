@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: swing_button
+  button_id: Play/ChoosePlay/Outside/Playground/swing_button
 --- !u!1 &388044532
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: bouncy_horse_button
+  button_id: Play/ChoosePlay/Outside/Playground/bouncy_horse_button
 --- !u!1 &724354143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: merry_go_round_button
+  button_id: Play/ChoosePlay/Outside/Playground/merry_go_round_button
 --- !u!1001 &965124253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: slide_button
+  button_id: Play/ChoosePlay/Outside/Playground/slide_button
 --- !u!1 &1318069257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: monkey_bar_button
+  button_id: Play/ChoosePlay/Outside/Playground/monkey_bar_button
 --- !u!1001 &1586191931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2299,7 +2299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Play/ChoosePlay/Outside/Playground/nav_i_dont_know_button
 --- !u!114 &1586191948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,7 +2312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Play/ChoosePlay/Outside/Playground/nav_yes_button
 --- !u!114 &1586191949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2325,7 +2325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Play/ChoosePlay/Outside/Playground/nav_no_button
 --- !u!1001 &1903115618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: climb_playground_button
+  button_id: Play/ChoosePlay/Outside/Playground/climb_playground_button
 --- !u!1001 &2077915353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2805,4 +2805,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: see_saw_button
+  button_id: Play/ChoosePlay/Outside/Playground/see_saw_button

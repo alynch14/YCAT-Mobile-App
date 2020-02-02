@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: get_undressed_self_button
+  button_id: Home/Closet/get_undressed_self_button
 --- !u!1001 &321664826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: clothes_button
+  button_id: Home/Closet/clothes_button
 --- !u!1001 &335817939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: get_dressed_self_button
+  button_id: Home/Closet/get_dressed_self_button
 --- !u!1001 &606838475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -957,16 +957,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 416094027753405960, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 416094027753405960, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4055257659486252827, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1111,17 +1101,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6223046799176985904, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 02c0f025a8990e240838481e0a71d594,
-        type: 3}
-    - target: {fileID: 6223046799176985904, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 896833075321113526, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -1282,6 +1261,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 416094027753405960, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416094027753405960, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223046799176985904, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 02c0f025a8990e240838481e0a71d594,
+        type: 3}
+    - target: {fileID: 6223046799176985904, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff63ac1a1dacd364ca8a35ba3a34293a, type: 3}
@@ -1467,7 +1467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Home/Closet/nav_i_dont_know_button
 --- !u!114 &606838495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,7 +1480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Home/Closet/nav_yes_button
 --- !u!114 &606838496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Home/Closet/nav_no_button
 --- !u!1001 &821684007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: need_changed_button
+  button_id: Home/Closet/need_changed_button
 --- !u!1 &1263565700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: get_undressed_help_button
+  button_id: Home/Closet/get_undressed_help_button
 --- !u!1 &1939119493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,7 +2605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: get_dressed_help_button
+  button_id: Home/Closet/get_dressed_help_button
 --- !u!1 &2103554947
 GameObject:
   m_ObjectHideFlags: 0

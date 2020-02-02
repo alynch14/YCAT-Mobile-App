@@ -279,6 +279,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &39026792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 39026791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &39026793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39026792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Things/Places/zoo_button
 --- !u!1001 &57053607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -398,25 +417,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d39808b9a4a51e4dbd2d9d20cc9e2ea, type: 3}
---- !u!1 &39026792 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 39026791}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &39026793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39026792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: zoo_button
 --- !u!1 &160639145
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: school_button
+  button_id: Things/Places/school_button
 --- !u!1001 &480908831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: grandparents_house_button
+  button_id: Things/Places/grandparents_house_button
 --- !u!1001 &714688074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: farm_button
+  button_id: Things/Places/farm_button
 --- !u!1001 &776583862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: backyard_button
+  button_id: Things/Places/backyard_button
 --- !u!1001 &840849173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: beach_button
+  button_id: Things/Places/beach_button
 --- !u!1001 &979965729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: park_button
+  button_id: Things/Places/park_button
 --- !u!1001 &1285766076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: movies_button
+  button_id: Things/Places/movies_button
 --- !u!1001 &1331845460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2377,7 +2377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Things/Places/nav_i_dont_know_button
 --- !u!114 &1331845477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Things/Places/nav_yes_button
 --- !u!114 &1331845478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,7 +2403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Things/Places/nav_no_button
 --- !u!1 &1355775750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: library_button
+  button_id: Things/Places/library_button
 --- !u!1001 &1440789000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2825,7 +2825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: restaurant_button
+  button_id: Things/Places/restaurant_button
 --- !u!1001 &1851975574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3003,7 +3003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: store_button
+  button_id: Things/Places/store_button
 --- !u!1001 &1868592503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3163,6 +3163,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &1868592504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 1868592503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1868592505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868592504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Things/Places/garden_button
 --- !u!1001 &1922846913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3292,25 +3311,6 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 73fc0b0fc7107ae4ba138bfdfd806c29, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
---- !u!1 &1868592504 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 1868592503}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1868592505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868592504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: garden_button
 --- !u!1001 &1953913700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3612,4 +3612,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: friends_house_button
+  button_id: Things/Places/friends_house_button

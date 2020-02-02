@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: see_soon_button
+  button_id: TalkTime/Greetings/see_soon_button
 --- !u!1001 &842853303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -563,16 +563,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -714,6 +704,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: TalkTime/Greetings/nav_i_dont_know_button
 --- !u!114 &868115465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: TalkTime/Greetings/nav_yes_button
 --- !u!114 &868115466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: TalkTime/Greetings/nav_no_button
 --- !u!1001 &1204786827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1386,7 +1386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: hello_button
+  button_id: TalkTime/Greetings/hello_button
 --- !u!1 &1260054184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1695,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &1935069635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 1935069634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1935069636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935069635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: TalkTime/Greetings/goodbye_button
 --- !u!1001 &2090785777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1814,22 +1833,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b3bb6996c25a049bf493a44ef21233, type: 3}
---- !u!1 &1935069635 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 1935069634}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1935069636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935069635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: goodbye_button

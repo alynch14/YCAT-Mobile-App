@@ -279,6 +279,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &188128432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 188128431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &188128433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188128432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/Fruits/fruit_cup_button
 --- !u!1001 &211965762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -409,25 +428,6 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 21c7da56a610d594c83405c9fc12c97b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 912ab4c55457ef945bd0c4655e929fb7, type: 3}
---- !u!1 &188128432 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 188128431}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &188128433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188128432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: fruit_cup_button
 --- !u!1001 &263611533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: orange_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/orange_button
 --- !u!1001 &273502944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -868,6 +868,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5440079578186019910, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113642, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_RenderMode
@@ -878,26 +883,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1134199978}
-    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_Text
-      value: Fruits
-      objectReference: {fileID: 0}
-    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7730668349174755367, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5440079578186019910, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 5067025955842894969, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -927,6 +912,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_Text
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081010125062260586, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3447162003189146163, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -1138,6 +1133,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7730668349174755367, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff63ac1a1dacd364ca8a35ba3a34293a, type: 3}
 --- !u!224 &273502945 stripped
@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/nav_i_dont_know_button
 --- !u!114 &273502961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/nav_yes_button
 --- !u!114 &273502962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/nav_no_button
 --- !u!1001 &528253318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: berries_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/berries_button
 --- !u!1001 &922269748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: banana_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/banana_button
 --- !u!1001 &1486311989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2044,7 +2044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: apple_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/apple_button
 --- !u!1001 &1745739213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2222,7 +2222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: melon_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/melon_button
 --- !u!1001 &1958363624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2400,7 +2400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: grapes_button
+  button_id: Home/Kitchen/HungryThirsty/Fruits/grapes_button
 --- !u!1 &2117591040
 GameObject:
   m_ObjectHideFlags: 0

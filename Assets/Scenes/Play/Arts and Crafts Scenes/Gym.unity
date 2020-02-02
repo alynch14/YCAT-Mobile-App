@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: spin_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/spin_button
 --- !u!1001 &638859480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: mats_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/mats_button
 --- !u!1001 &745753406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -755,16 +755,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -907,6 +897,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/nav_i_dont_know_button
 --- !u!114 &745753423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1388,7 +1388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/nav_yes_button
 --- !u!114 &745753424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/nav_no_button
 --- !u!1001 &916763020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: obstacle_course_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/obstacle_course_button
 --- !u!1001 &933411728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1863,6 +1863,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &933411729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 933411728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &933411730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933411729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/hopping_ball_button
 --- !u!1001 &1001787879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1992,25 +2011,6 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 34f9ece7240f3ee4780359f79f021587, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
---- !u!1 &933411729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 933411728}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &933411730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933411729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: hopping_ball_button
 --- !u!1001 &1593499112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: jump_on_trampoline_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/jump_on_trampoline_button
 --- !u!1001 &1893857190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: swing_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/swing_button
 --- !u!1001 &2049387595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2544,4 +2544,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: tunnel_button
+  button_id: Play/ChoosePlay/ArtsCrafts/Gym/tunnel_button

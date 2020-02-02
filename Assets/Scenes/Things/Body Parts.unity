@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: ears_button
+  button_id: Things/BodyParts/ears_button
 --- !u!1 &231161094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4789543711760948388, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Things/BodyParts/nav_no_button
 --- !u!1001 &300280310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: eyes_button
+  button_id: Things/BodyParts/eyes_button
 --- !u!1 &497007731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: leg_button
+  button_id: Things/BodyParts/leg_button
 --- !u!1 &881896860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: arm_button
+  button_id: Things/BodyParts/arm_button
 --- !u!1 &1039743491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: foot_button
+  button_id: Things/BodyParts/foot_button
 --- !u!1 &1211023215 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nose_button
+  button_id: Things/BodyParts/nose_button
 --- !u!1 &1276966699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 659099883753778827, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Things/BodyParts/nav_i_dont_know_button
 --- !u!1 &1296612985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5023244888679703373, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Things/BodyParts/nav_yes_button
 --- !u!1 &1301029692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
@@ -1553,7 +1553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: head_button
+  button_id: Things/BodyParts/head_button
 --- !u!1001 &1305936797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1909,7 +1909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: belly_button
+  button_id: Things/BodyParts/belly_button
 --- !u!1001 &1508255285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2087,7 +2087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: bottom_button
+  button_id: Things/BodyParts/bottom_button
 --- !u!1001 &1716191909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2456,7 +2456,7 @@ PrefabInstance:
     - target: {fileID: 7380311722778724538, guid: 72ba5e2fb75b543cab6ff8feb53614a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7380311722778724538, guid: 72ba5e2fb75b543cab6ff8feb53614a9,
         type: 3}
@@ -2652,7 +2652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: hand_button
+  button_id: Things/BodyParts/hand_button
 --- !u!1 &2120067891 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 418107266713132347, guid: ff63ac1a1dacd364ca8a35ba3a34293a,

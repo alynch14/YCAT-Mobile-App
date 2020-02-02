@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: what_this_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/what_this_button
 --- !u!1001 &183321155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: how_fix_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/how_fix_button
 --- !u!1001 &207959744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: what_happened_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/what_happened_button
 --- !u!1001 &281163559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: where_we_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/where_we_button
 --- !u!1001 &350994043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: how_work_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/how_work_button
 --- !u!1001 &407228223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: where_it_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/where_it_button
 --- !u!1 &448491021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: how_long_until_there_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/how_long_until_there_button
 --- !u!1001 &1168021179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: where_going_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/where_going_button
 --- !u!1001 &1193894350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: when_eat_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/when_eat_button
 --- !u!1001 &1217996946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1816,16 +1816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -1968,6 +1958,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -2436,7 +2436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/nav_i_dont_know_button
 --- !u!114 &1217996963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2449,7 +2449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/nav_yes_button
 --- !u!114 &1217996964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/nav_no_button
 --- !u!1001 &1267291772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2622,6 +2622,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &1267291773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 1267291772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1267291774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267291773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: TalkTime/WhoWhatWhenWhereWhy/why_happen_button
 --- !u!1001 &1382233554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2751,25 +2770,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
---- !u!1 &1267291773 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 1267291772}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1267291774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267291773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: why_happen_button
 --- !u!1001 &1520965210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: when_going_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/when_going_button
 --- !u!1001 &1526721241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3125,7 +3125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: who_that_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/who_that_button
 --- !u!1001 &1690567024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3427,7 +3427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: tell_more_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/tell_more_button
 --- !u!1001 &1786235387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3605,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: what_time_button
+  button_id: TalkTime/WhoWhatWhenWhereWhy/what_time_button
 --- !u!1 &2105671488
 GameObject:
   m_ObjectHideFlags: 0

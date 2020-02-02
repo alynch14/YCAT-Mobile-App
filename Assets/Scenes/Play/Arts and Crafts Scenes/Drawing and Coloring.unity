@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: pen_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/pen_button
 --- !u!1001 &324736909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,16 +309,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -461,6 +451,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/nav_i_dont_know_button
 --- !u!114 &324736926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/nav_yes_button
 --- !u!114 &324736927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/nav_no_button
 --- !u!1001 &388113544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: chalk_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/chalk_button
 --- !u!1001 &411686334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: colored_pencils_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/colored_pencils_button
 --- !u!1001 &433342767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1489,7 +1489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: crayons_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/crayons_button
 --- !u!1001 &498108693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: sidewalk_chalk_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/sidewalk_chalk_button
 --- !u!1001 &641289515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1969,7 +1969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: markers_button
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/markers_button
 --- !u!1 &791264969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +2397,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
+--- !u!1 &1188171549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
+    type: 3}
+  m_PrefabInstance: {fileID: 1188171548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1188171550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188171549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Play/ChoosePlay/ArtsCrafts/DrawingColoring/pencil_button
 --- !u!1001 &1811618678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2526,22 +2545,3 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 2db9220e36f16064ebb334730b76b37c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
---- !u!1 &1188171549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5321716813915753870, guid: 5d05721a683fa284a820e0f40d0ba741,
-    type: 3}
-  m_PrefabInstance: {fileID: 1188171548}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1188171550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1188171549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: pencil_button

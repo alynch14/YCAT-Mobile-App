@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: bear_button
+  button_id: Things/Animals/bear_button
 --- !u!1001 &183107006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: pig_button
+  button_id: Things/Animals/pig_button
 --- !u!1001 &336627640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 7380311722778724538, guid: 72ba5e2fb75b543cab6ff8feb53614a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7380311722778724538, guid: 72ba5e2fb75b543cab6ff8feb53614a9,
         type: 3}
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: horse_button
+  button_id: Things/Animals/horse_button
 --- !u!1001 &500987128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -789,16 +789,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -941,6 +931,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Things/Animals/nav_i_dont_know_button
 --- !u!114 &500987145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Things/Animals/nav_yes_button
 --- !u!114 &500987146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1435,7 +1435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Things/Animals/nav_no_button
 --- !u!1001 &547641463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1613,7 +1613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: zebra_button
+  button_id: Things/Animals/zebra_button
 --- !u!1 &631019751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: chicken_button
+  button_id: Things/Animals/chicken_button
 --- !u!1001 &1345116960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: dog_button
+  button_id: Things/Animals/dog_button
 --- !u!1001 &1705579962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: cow_button
+  button_id: Things/Animals/cow_button
 --- !u!1001 &1943844173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2408,7 +2408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: tiger_button
+  button_id: Things/Animals/tiger_button
 --- !u!1001 &1960502813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: cat_button
+  button_id: Things/Animals/cat_button
 --- !u!1001 &1980987027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2764,7 +2764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: giraffe_button
+  button_id: Things/Animals/giraffe_button
 --- !u!1 &2128615214
 GameObject:
   m_ObjectHideFlags: 0

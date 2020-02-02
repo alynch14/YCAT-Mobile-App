@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Things/nav_no_button
 --- !u!1001 &163279820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Things/nav_i_dont_know_button
 --- !u!1 &537670288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -790,7 +790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: colors_button
+  button_id: Things/colors_button
 --- !u!1 &571948775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: body_parts_button
+  button_id: Things/body_parts_button
 --- !u!1001 &604078565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -821,16 +821,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
@@ -973,6 +963,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Things/nav_yes_button
 --- !u!1 &891818450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 418107266713132347, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
@@ -1965,7 +1965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: shapes_button
+  button_id: Things/shapes_button
 --- !u!1 &1502503803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: animals_button
+  button_id: Things/animals_button
 --- !u!1 &1578785589 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: places_button
+  button_id: Things/places_button
 --- !u!1 &1682593945 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -2022,7 +2022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: numbers_button
+  button_id: Things/numbers_button
 --- !u!1001 &1738439078
 PrefabInstance:
   m_ObjectHideFlags: 0

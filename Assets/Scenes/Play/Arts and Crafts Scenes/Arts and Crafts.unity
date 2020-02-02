@@ -132,16 +132,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2584792606750113643, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -283,6 +273,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5095152357334328496, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985282300392258693, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Play/ChoosePlay/ArtsCrafts/nav_i_dont_know_button
 --- !u!114 &18805520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Play/ChoosePlay/ArtsCrafts/nav_yes_button
 --- !u!114 &18805521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Play/ChoosePlay/ArtsCrafts/nav_no_button
 --- !u!1 &320810256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: drawing_and_coloring_button
+  button_id: Play/ChoosePlay/ArtsCrafts/drawing_and_coloring_button
 --- !u!1 &610956755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: gym_button
+  button_id: Play/ChoosePlay/ArtsCrafts/gym_button
 --- !u!1001 &1039841445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1617,7 +1617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: sensory_button
+  button_id: Play/ChoosePlay/ArtsCrafts/sensory_button
 --- !u!1001 &1241770955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: make_craft_button
+  button_id: Play/ChoosePlay/ArtsCrafts/make_craft_button
 --- !u!1001 &1914186067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1977,6 +1977,25 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 162b2a81dce954f459e0563ebfa84a5e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f418e4a5823665b41aaddaaea9566654, type: 3}
+--- !u!1 &1914186068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
+    type: 3}
+  m_PrefabInstance: {fileID: 1914186067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914186069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914186068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Play/ChoosePlay/ArtsCrafts/paint_button
 --- !u!1001 &1981739883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2225,22 +2244,3 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: d4d479d5143f6af4d969e54dcd067947, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d05721a683fa284a820e0f40d0ba741, type: 3}
---- !u!1 &1914186068 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
-    type: 3}
-  m_PrefabInstance: {fileID: 1914186067}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1914186069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914186068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button_id: paint_button
