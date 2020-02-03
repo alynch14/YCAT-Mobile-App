@@ -8,8 +8,23 @@ using System;
 public class UserHandler : MonoBehaviour
 {
     public static int user_id; // Static variable
+
     public InputField username_field;
     public InputField password_field;
+    public GameObject invalid_text;
+
+    private string key_user = "Username";
+    private string key_pass = "Password";
+
+    // Use this for initialization
+    void Start()
+    {
+        invalid_text.SetActive(false);
+
+        // Displays user's prefered username and password if appicable
+        username_field.text = (PlayerPrefs.GetString(key_user) != null) ? PlayerPrefs.GetString(key_user) : "";
+        password_field.text = (PlayerPrefs.GetString(key_pass) != null) ? PlayerPrefs.GetString(key_pass) : "";
+    }
 
     public void SignIn()
     {
@@ -27,19 +42,25 @@ public class UserHandler : MonoBehaviour
         if (www.text[0] == '0')
         {
             Debug.Log("User successfully logged in");
+
+            // Retrieves user ID
             try {
-                // Retrieves user ID
                 user_id = Int32.Parse(www.text.Substring(1));
             }
             catch (FormatException) {
                 Debug.Log("Failed to parse: " + www.text.Substring(1));
             }
 
-            // Redirect to starting screen
+            // Sets user's prefered username and password
+            PlayerPrefs.SetString(key_user, username_field.text);
+            PlayerPrefs.SetString(key_pass, password_field.text);
+
+            // Redirects to starting screen
             SceneManager.LoadScene("Start Screen");
         }
         else
         {
+            invalid_text.SetActive(true);
             Debug.Log("User failed to login. " + www.text);
         }
     }
