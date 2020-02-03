@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: light_spinner_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/light_spinner_button
 --- !u!1001 &63016001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: mr_potato_head_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/mr_potato_head_button
 --- !u!1001 &315727155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: popup_beads_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/popup_beads_button
 --- !u!1 &338559617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_i_dont_know_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/nav_i_dont_know_button
 --- !u!114 &340689726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_yes_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/nav_yes_button
 --- !u!114 &340689727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: nav_no_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/nav_no_button
 --- !u!1001 &671561698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: felt_board_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/felt_board_button
 --- !u!1001 &992771441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: toy_hammer_set_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/toy_hammer_set_button
 --- !u!1001 &993246163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2269,7 +2269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: spinning_tops_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/spinning_tops_button
 --- !u!1001 &1330959554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2447,7 +2447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: ball_spinner_button
+  button_id: Play/ChoosePlay/Toys/MoreToys/ball_spinner_button
 --- !u!1 &1375003741
 GameObject:
   m_ObjectHideFlags: 0

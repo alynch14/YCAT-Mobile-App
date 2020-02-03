@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: want_fruits_button
+  button_id: Home/Kitchen/HungryThirsty/want_fruits_button
 --- !u!1 &610231100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: want_drink_button
+  button_id: Home/Kitchen/HungryThirsty/want_drink_button
 --- !u!1001 &635290778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -746,11 +746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1308870240}
+      objectReference: {fileID: 1308870247}
     - target: {fileID: 3692342415573883837, guid: f418e4a5823665b41aaddaaea9566654,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
+      value: LogButtonPress
       objectReference: {fileID: 0}
     - target: {fileID: 3692342415573883837, guid: f418e4a5823665b41aaddaaea9566654,
         type: 3}
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: want_breakfast_button
+  button_id: Home/Kitchen/HungryThirsty/want_breakfast_button
 --- !u!1001 &750668620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1124,7 +1124,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 805493796}
     - target: {fileID: 3692342415573883837, guid: f418e4a5823665b41aaddaaea9566654,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1142,6 +1142,25 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0dcafb91af5e41347848dbf45714e232, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f418e4a5823665b41aaddaaea9566654, type: 3}
+--- !u!1 &805493795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
+    type: 3}
+  m_PrefabInstance: {fileID: 805493794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &805493796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805493795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/want_dinner_button
 --- !u!1 &834534848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6763185500307411662, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
@@ -1313,7 +1332,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 872908725}
     - target: {fileID: 3692342415573883837, guid: f418e4a5823665b41aaddaaea9566654,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1331,6 +1350,25 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 9d61153c03ebfd045b76757b504b176e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f418e4a5823665b41aaddaaea9566654, type: 3}
+--- !u!1 &872908724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4216089891404483888, guid: f418e4a5823665b41aaddaaea9566654,
+    type: 3}
+  m_PrefabInstance: {fileID: 872908723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &872908725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872908724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/want_lunch_button
 --- !u!1001 &877352617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1627,7 +1665,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 877352624}
     - target: {fileID: 5067025955842894969, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1667,7 +1705,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 877352626}
     - target: {fileID: 3447162003189146163, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1697,7 +1735,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 877352625}
     - target: {fileID: 3813598544338335390, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1757,7 +1795,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 877352623}
     - target: {fileID: 1347456493691661162, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1871,6 +1909,82 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 877352617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &877352619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1949067139342990823, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+    type: 3}
+  m_PrefabInstance: {fileID: 877352617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &877352620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 659099883753778827, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+    type: 3}
+  m_PrefabInstance: {fileID: 877352617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &877352621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5023244888679703373, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+    type: 3}
+  m_PrefabInstance: {fileID: 877352617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &877352622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4789543711760948388, guid: ff63ac1a1dacd364ca8a35ba3a34293a,
+    type: 3}
+  m_PrefabInstance: {fileID: 877352617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &877352623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877352619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: home_button
+--- !u!114 &877352624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877352620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/nav_i_dont_know_button
+--- !u!114 &877352625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877352621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/nav_yes_button
+--- !u!114 &877352626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877352622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Home/Kitchen/HungryThirsty/nav_no_button
 --- !u!1 &904037562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: snacks
+  button_id: Home/Kitchen/HungryThirsty/snacks_button
 --- !u!1001 &1166466712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2315,7 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: vegetables
+  button_id: Home/Kitchen/HungryThirsty/vegetables_button
 --- !u!1001 &1441782310
 PrefabInstance:
   m_ObjectHideFlags: 0
