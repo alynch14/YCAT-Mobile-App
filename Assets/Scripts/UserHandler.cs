@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class UserHandler : MonoBehaviour
 {
-    public static int user_id;
+    public static int user_id; // Static variable
     public InputField username_field;
     public InputField password_field;
 
@@ -23,9 +24,18 @@ public class UserHandler : MonoBehaviour
         WWW www = new WWW("http://mobile.tuycat.com/login.php", form);
         yield return www;
 
-        if (www.text == "0")
+        if (www.text[0] == '0')
         {
             Debug.Log("User successfully logged in");
+            try {
+                // Retrieves user ID
+                user_id = Int32.Parse(www.text.Substring(1));
+            }
+            catch (FormatException) {
+                Debug.Log("Failed to parse: " + www.text.Substring(1));
+            }
+
+            // Redirect to starting screen
             SceneManager.LoadScene("Start Screen");
         }
         else

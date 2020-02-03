@@ -15,7 +15,7 @@ public class ButtonHandler : MonoBehaviour
     IEnumerator SendToDatabase()
     {
         WWWForm form = new WWWForm();
-        form.AddField("user_id", 1); // Hard coded for now
+        form.AddField("user_id", UserHandler.user_id); // Using static variable
         form.AddField("button_id", button_id);
         WWW www = new WWW("http://mobile.tuycat.com/log_press.php", form);
         yield return www;
