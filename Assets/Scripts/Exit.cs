@@ -26,6 +26,7 @@ public class Exit : MonoBehaviour
         
     }
 
+    // Application exits
     public void exit()
     {
         Application.Quit();
