@@ -1,0 +1,7 @@
+Add parent response questions for logout of app. This should come after the initial logout question page asking "Did YCAT help you today?"
+
+For the path, instead of text use pictures of the users' selections
+
+Research how easy it would be to implement a camera function in the app where a user can take a picture and have it update a specific button. (This is a long-term goal)
+
+
