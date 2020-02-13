@@ -105,7 +105,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Play/Arts and Crafts Scenes/Make Craft.unity
     guid: c6ffbf671b8f3a844b531e617eb3a030
   - enabled: 1
-    path: Assets/Scenes/Play/Arts and Crafts Scenes/Gym.unity
+    path: Assets/Scenes/Play/Gym.unity
     guid: e4caea7f43f61314481e152169f0793b
   - enabled: 1
     path: Assets/Scenes/Play/Arts and Crafts Scenes/Drawing and Coloring.unity
@@ -120,7 +120,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Feelings/Sleepy/Sleepy.unity
     guid: c98cae8e831f88744a06382dc54513cd
   - enabled: 1
-    path: Assets/Scenes/Feelings/Sick/Too Hot.unity
+    path: Assets/Scenes/Feelings/Sick/Something Hurts.unity
     guid: bb93c300f35296d48bd88a24716c53de
   - enabled: 1
     path: Assets/Scenes/Feelings/Sick/Sick.unity
@@ -176,4 +176,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Login.unity
     guid: 35f3aa7d2889b524c858fcaa9f60e8b2
+  - enabled: 1
+    path: Assets/Scenes/ParentSurveyQuestions/Question1.unity
+    guid: ff1ee28cd1920f449918cb2512d5bd67
+  - enabled: 1
+    path: Assets/Scenes/ParentSurveyQuestions/Question2.unity
+    guid: a0f36de1d1ab7c64ab4cddbaae5941a7
+  - enabled: 1
+    path: Assets/Scenes/ParentSurveyQuestions/Question3.unity
+    guid: 2414a6cee9879b04eba1f3072a8387b6
+  - enabled: 1
+    path: Assets/Scenes/ParentSurveyQuestions/Question4.unity
+    guid: 0e10debf681a9a744aec799df0e3af36
   m_configObjects: {}
