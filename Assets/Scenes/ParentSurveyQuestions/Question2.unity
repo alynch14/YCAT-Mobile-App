@@ -396,25 +396,40 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 261.4
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583417073942, guid: 19726322b02b0ef469db96e63bb32bbd,
-        type: 3}
-      propertyPath: m_Text
-      value: Did your child experience any difficulties while using the yCAT today?
-      objectReference: {fileID: 0}
     - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Question3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847975186179524185, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question2/yes_button
       objectReference: {fileID: 0}
     - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Question3
       objectReference: {fileID: 0}
+    - target: {fileID: 65888082373105622, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question2/sometimes_button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583417073942, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_Text
+      value: Did your child experience any difficulties while using the yCAT today?
+      objectReference: {fileID: 0}
     - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Question3
+      objectReference: {fileID: 0}
+    - target: {fileID: 325032757353099699, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question2/no_button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19726322b02b0ef469db96e63bb32bbd, type: 3}

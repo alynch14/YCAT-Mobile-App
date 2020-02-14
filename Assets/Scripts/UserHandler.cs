@@ -31,6 +31,12 @@ public class UserHandler : MonoBehaviour
         StartCoroutine(LoginUser());
     }
 
+    public void SignOut()
+    {
+        Debug.Log("User successfully logged out");
+        user_id = new int();
+    }
+
     IEnumerator LoginUser()
     {
         WWWForm form = new WWWForm();
@@ -54,6 +60,9 @@ public class UserHandler : MonoBehaviour
             // Sets user's prefered username and password
             PlayerPrefs.SetString(key_user, username_field.text);
             PlayerPrefs.SetString(key_pass, password_field.text);
+
+            // Log button press
+            this.GetComponent<ButtonHandler>().LogButtonPress();
 
             // Redirects to starting screen
             SceneManager.LoadScene("Start Screen");

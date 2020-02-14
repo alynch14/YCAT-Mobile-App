@@ -22,7 +22,7 @@ public class ButtonHandler : MonoBehaviour
 
         if (www.text == "0")
         {
-            Debug.Log("Button press logged successfully");
+            Debug.Log(button_id + " press logged successfully");
         }
         else
         {
