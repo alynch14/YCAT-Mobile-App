@@ -61,9 +61,6 @@ public class UserHandler : MonoBehaviour
             PlayerPrefs.SetString(key_user, username_field.text);
             PlayerPrefs.SetString(key_pass, password_field.text);
 
-            // Log button press
-            this.GetComponent<ButtonHandler>().LogButtonPress();
-
             // Redirects to starting screen
             SceneManager.LoadScene("Start Screen");
         }
