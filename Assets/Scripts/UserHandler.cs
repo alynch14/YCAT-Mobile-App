@@ -31,6 +31,12 @@ public class UserHandler : MonoBehaviour
         StartCoroutine(LoginUser());
     }
 
+    public void SignOut()
+    {
+        Debug.Log("User successfully logged out");
+        user_id = new int();
+    }
+
     IEnumerator LoginUser()
     {
         WWWForm form = new WWWForm();

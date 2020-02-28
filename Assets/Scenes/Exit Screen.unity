@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 407391568}
   - component: {fileID: 407391567}
   - component: {fileID: 407391566}
+  - component: {fileID: 407391570}
   m_Layer: 5
   m_Name: Happy
   m_TagString: Untagged
@@ -304,6 +305,17 @@ MonoBehaviour:
           m_StringArgument: Question1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 407391570}
+        m_MethodName: LogButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &407391568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +352,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407391564}
   m_CullTransparentMesh: 0
+--- !u!114 &407391570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407391564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Exit/yes_button
 --- !u!1 &579529615
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +702,7 @@ GameObject:
   - component: {fileID: 766938294}
   - component: {fileID: 766938293}
   - component: {fileID: 766938292}
+  - component: {fileID: 766938296}
   m_Layer: 5
   m_Name: Sad
   m_TagString: Untagged
@@ -771,6 +797,17 @@ MonoBehaviour:
           m_StringArgument: Question1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 766938296}
+        m_MethodName: LogButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &766938294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,6 +844,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766938290}
   m_CullTransparentMesh: 0
+--- !u!114 &766938296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766938290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_id: Exit/no_button
 --- !u!1 &1109998220
 GameObject:
   m_ObjectHideFlags: 0

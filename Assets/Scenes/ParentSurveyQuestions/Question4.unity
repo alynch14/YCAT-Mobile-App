@@ -203,6 +203,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &471638028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164270582023919878, guid: 19726322b02b0ef469db96e63bb32bbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 840092434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &471638030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471638028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8c4b0ab76dc442a6ea46241b58c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username_field: {fileID: 0}
+  password_field: {fileID: 0}
+  invalid_text: {fileID: 0}
+--- !u!1 &599838585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164270583591399063, guid: 19726322b02b0ef469db96e63bb32bbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 840092434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &599838587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599838585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8c4b0ab76dc442a6ea46241b58c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username_field: {fileID: 0}
+  password_field: {fileID: 0}
+  invalid_text: {fileID: 0}
 --- !u!1001 &840092434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,35 +362,130 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583417073942, guid: 19726322b02b0ef469db96e63bb32bbd,
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
-      propertyPath: m_Text
-      value: What did your child us yCAT most for today?
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Login
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
-      propertyPath: m_Text
-      value: Express feelings/ emotions
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 50
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 5
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 471638030}
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SignOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582023919876, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847975186179524185, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question4/express_feelings_emotions_button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Login
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1560172361}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SignOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270582058454617, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 65888082373105622, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question4/seek_assistence_attention_button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583417073942, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_Text
+      value: What did your child us yCAT most for today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Login
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 599838587}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SignOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 325032757353099699, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: button_id
+      value: Survey/Question4/play_button
       objectReference: {fileID: 0}
     - target: {fileID: 8164270581881195986, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
@@ -365,15 +502,25 @@ PrefabInstance:
       propertyPath: m_FontData.m_MinSize
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 8164270583591399061, guid: 19726322b02b0ef469db96e63bb32bbd,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: Login
-      objectReference: {fileID: 0}
     - target: {fileID: 8164270581949003682, guid: 19726322b02b0ef469db96e63bb32bbd,
         type: 3}
       propertyPath: m_Text
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_Text
+      value: Express feelings/ emotions
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164270583295708503, guid: 19726322b02b0ef469db96e63bb32bbd,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19726322b02b0ef469db96e63bb32bbd, type: 3}
@@ -443,3 +590,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1560172359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164270582058454619, guid: 19726322b02b0ef469db96e63bb32bbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 840092434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560172361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560172359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8c4b0ab76dc442a6ea46241b58c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username_field: {fileID: 0}
+  password_field: {fileID: 0}
+  invalid_text: {fileID: 0}
