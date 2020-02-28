@@ -763,6 +763,10 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 9ea1d873571122a4b8db52c2479dca72, type: 3}
+    - target: {fileID: 6300332986178698, guid: 912ab4c55457ef945bd0c4655e929fb7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Hungry_Thirsty
+      objectReference: {fileID: 0}
     - target: {fileID: 5255070368666832525, guid: 912ab4c55457ef945bd0c4655e929fb7,
         type: 3}
       propertyPath: audioClip
