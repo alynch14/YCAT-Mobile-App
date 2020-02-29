@@ -247,6 +247,11 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: c868fcb61a83cc944a13399de0114827, type: 3}
+    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f1c6795617cc3045821334c2a2abd8e, type: 3}
     - target: {fileID: 4640347576632613635, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -287,11 +292,6 @@ PrefabInstance:
       propertyPath: m_MinHeight
       value: 800
       objectReference: {fileID: 0}
-    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
-        type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8f1c6795617cc3045821334c2a2abd8e, type: 3}
     - target: {fileID: 7472643951090810889, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_MinHeight
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/get_undressed_self_button
+  button_id: Home/Bedroom/Closet/get_undressed_self_button
 --- !u!1001 &321664826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/clothes_button
+  button_id: Home/Bedroom/Closet/clothes_button
 --- !u!1001 &335817939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -634,6 +634,11 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: a6fa9e5c44d59184b8b0f37434ba3056, type: 3}
+    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b429475c8dc72ec43b6b8eb06850fca6, type: 3}
     - target: {fileID: 4640347576632613635, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -664,11 +669,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
-        type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: b429475c8dc72ec43b6b8eb06850fca6, type: 3}
     - target: {fileID: 7472643951090810889, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_MinHeight
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/get_dressed_self_button
+  button_id: Home/Bedroom/Closet/get_dressed_self_button
 --- !u!1001 &606838475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/nav_i_dont_know_button
+  button_id: Home/Bedroom/Closet/nav_i_dont_know_button
 --- !u!114 &606838495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/nav_yes_button
+  button_id: Home/Bedroom/Closet/nav_yes_button
 --- !u!114 &606838496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,7 +1518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/nav_no_button
+  button_id: Home/Bedroom/Closet/nav_no_button
 --- !u!1001 &821684007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1775,6 +1775,11 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3d860eeef18b01941bac9b56d3843ee0, type: 3}
+    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 60d6b3eb63fe5054fbceec6e5ca3d003, type: 3}
     - target: {fileID: 4640347576632613635, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1805,11 +1810,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
-        type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 60d6b3eb63fe5054fbceec6e5ca3d003, type: 3}
     - target: {fileID: 7472643951090810889, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_MinHeight
@@ -1835,7 +1835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/need_changed_button
+  button_id: Home/Bedroom/Closet/need_changed_button
 --- !u!1 &1263565700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,6 +2190,11 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: a7b98d85e9e942d4a9e9e4f5da12959d, type: 3}
+    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ecbb3d679ea595243bc6069a74acf2c7, type: 3}
     - target: {fileID: 4640347576632613635, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2220,11 +2225,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
-        type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: ecbb3d679ea595243bc6069a74acf2c7, type: 3}
     - target: {fileID: 7472643951090810889, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_MinHeight
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/get_undressed_help_button
+  button_id: Home/Bedroom/Closet/get_undressed_help_button
 --- !u!1 &1939119493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,6 +2595,11 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: ea66bc6465aec9c4c9b74ab17dfc1d7b, type: 3}
+    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b973599418d8da948a5c98fbc120ec1b, type: 3}
     - target: {fileID: 4640347576632613635, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2625,11 +2630,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 8138332667115029776, guid: 5d05721a683fa284a820e0f40d0ba741,
-        type: 3}
-      propertyPath: audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: b973599418d8da948a5c98fbc120ec1b, type: 3}
     - target: {fileID: 7472643951090810889, guid: 5d05721a683fa284a820e0f40d0ba741,
         type: 3}
       propertyPath: m_MinHeight
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8683bffdb2de5984ea631ef38a12d7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_id: Home/Closet/get_dressed_help_button
+  button_id: Home/Bedroom/Closet/get_dressed_help_button
 --- !u!1 &2103554947
 GameObject:
   m_ObjectHideFlags: 0
