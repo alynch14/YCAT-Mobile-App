@@ -200,4 +200,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScenes/Window.unity
     guid: 1f39c15a67e2a60438ab84ea09f4942b
+  - enabled: 1
+    path: Assets/Scenes/Camera.unity
+    guid: c455675afeb0ced429c94cc8df35817d
   m_configObjects: {}

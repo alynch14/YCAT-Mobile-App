@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEngine.Networking;
 
 public class UserHandler : MonoBehaviour
 {
-    public static int user_id; // Static variable
-
     public InputField username_field;
     public InputField password_field;
     public GameObject invalid_text;
@@ -19,8 +18,6 @@ public class UserHandler : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        invalid_text.SetActive(false);
-
         // Displays user's prefered username and password if appicable
         username_field.text = (PlayerPrefs.GetString(key_user) != null) ? PlayerPrefs.GetString(key_user) : "";
         password_field.text = (PlayerPrefs.GetString(key_pass) != null) ? PlayerPrefs.GetString(key_pass) : "";
@@ -34,7 +31,7 @@ public class UserHandler : MonoBehaviour
     public void SignOut()
     {
         Debug.Log("User successfully logged out");
-        user_id = new int();
+        StaticClass.USER_ID = new int();
     }
 
     IEnumerator LoginUser()
@@ -42,19 +39,19 @@ public class UserHandler : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("username", username_field.text);
         form.AddField("password", password_field.text);
-        WWW www = new WWW("http://mobile.tuycat.com/login.php", form);
-        yield return www;
+        UnityWebRequest www = UnityWebRequest.Post("http://mobile.tuycat.com/login.php", form);
+        yield return www.SendWebRequest();
 
-        if (www.text[0] == '0')
+        if (www.downloadHandler.text[0] == '0')
         {
             Debug.Log("User successfully logged in");
 
             // Retrieves user ID
             try {
-                user_id = Int32.Parse(www.text.Substring(1));
+                StaticClass.USER_ID = Int32.Parse(www.downloadHandler.text.Substring(1));
             }
             catch (FormatException) {
-                Debug.Log("Failed to parse: " + www.text.Substring(1));
+                Debug.Log("Failed to parse: " + www.downloadHandler.text.Substring(1));
             }
 
             // Sets user's prefered username and password
@@ -67,7 +64,7 @@ public class UserHandler : MonoBehaviour
         else
         {
             invalid_text.SetActive(true);
-            Debug.Log("User failed to login. " + www.text);
+            Debug.Log("User failed to login. " + www.downloadHandler.text);
         }
     }
 }
