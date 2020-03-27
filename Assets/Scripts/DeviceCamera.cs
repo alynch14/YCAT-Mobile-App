@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
-using UnityEditor;
 
 public class DeviceCamera : MonoBehaviour
 {
@@ -75,26 +74,20 @@ public class DeviceCamera : MonoBehaviour
 
     IEnumerator SnapShot()
     {
-        string folderPath = Directory.GetCurrentDirectory() + "\\Assets\\Resources\\Screenshots\\";
+        // Prepare file details
+        string folderPath = Application.persistentDataPath;
+        string fileName = StaticClass.BUTTON_IMAGE + ".png";
 
-        if (!System.IO.Directory.Exists(folderPath))
-            System.IO.Directory.CreateDirectory(folderPath);
-
-        var screenshotName = StaticClass.BUTTON_IMAGE + ".png";
-
-        // Button disappears before screenshot
+        // Hides button before screenshot
         button_screenshot.SetActive(false);
         yield return new WaitForSeconds(0.0001F);
 
-        // Takes screenshot, names it screenshotName, and saves it to folderPath
-        ScreenCapture.CaptureScreenshot(System.IO.Path.Combine(folderPath, screenshotName));
+        // Takes a screenshot and saves it to a folder
+        ScreenCapture.CaptureScreenshot(System.IO.Path.Combine(folderPath, fileName));
 
-        // Button reappears after screenshot
+        // Turns off camera and redirects back to start screen
         yield return new WaitForSeconds(0.0001F);
-
-        // Turns off camera and redirects back to Main page
         backCam.Stop();
-        AssetDatabase.Refresh(); // Used to create the PNG's meta file
         SceneManager.LoadScene("Start Screen");
     }
 }

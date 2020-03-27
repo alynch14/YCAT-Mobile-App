@@ -16,9 +16,10 @@ public class ButtonHandler : MonoBehaviour
     void Start()
     {
         // If screenshot exists, use that for button image instead of default
-        if(System.IO.File.Exists(Directory.GetCurrentDirectory() + "\\Assets\\Resources\\Screenshots\\" + button_name + ".png"))
+        string filePath = System.IO.Path.Combine(Application.persistentDataPath, button_name + ".png");
+        if (System.IO.File.Exists(filePath))
         {
-            var newSprite = Resources.Load<Sprite>("Screenshots/" + button_name);
+            Sprite newSprite = IMG2Sprite.instance.LoadNewSprite(filePath);
             thisButton.GetComponent<Image>().sprite = newSprite;
         }
     }
